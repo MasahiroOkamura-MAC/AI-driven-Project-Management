@@ -1,0 +1,70 @@
+# システムファイル
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# エディタ・IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ログファイル
+*.log
+logs/
+
+# 一時ファイル
+*.tmp
+*.temp
+temp/
+tmp/
+
+# 依存関係
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ビルド成果物
+dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 環境変数ファイル
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# データベース
+*.db
+*.sqlite
+*.sqlite3
+
+# キャッシュ
+.cache/
+.parcel-cache/
+
+# テストカバレッジ
+coverage/
+.nyc_output/
+
+# ドキュメント内のファイル（docsフォルダは管理するが中身は除外）
+docs/**/*
+!docs/
+!docs/.gitkeep
+
+# その他の除外ファイル
+*.bak
+*.backup
+*.orig
